@@ -1,0 +1,72 @@
+body {
+    background-image: url("kepek/hattér");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    border:lightblue 10px solid;
+}
+.cim {
+    font-size: 50px;
+    text-align: center;
+}
+#fooldal {
+    width: 1200px;
+    margin: auto;
+    border: lightcyan 5px solid;
+    
+}
+main {
+    background-color: rgba(255,255,255,0.8);
+    
+}
+.fo {
+    border:skyblue 2px solid;
+    width: 375px;
+    margin: 10px;
+    background-color:rgba(0, 255, 255, 0.288);
+    padding: 20px;
+    font-size:25px;
+}
+header {
+ background-image: url("kepek/logoo.png");
+ background-size:1200px 500px;
+ width: 1200px;
+ height: 500px;
+}
+.navbar {
+    width: 200px;
+    border-right:lightcyan 5px solid;
+    border-bottom:lightcyan 5px solid;
+}
+li {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header ul li {
+    list-style: none;
+    display: block;
+    
+
+}
+header ul li a {
+    color:black;
+    display: block;
+    padding: 5px 10px;
+
+}
+
+header .sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+header li:hover .sub-menu {
+    display: block;
+
+}
+
+
